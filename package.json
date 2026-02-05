@@ -1,0 +1,36 @@
+{
+  "name": "ai-token-cost",
+  "version": "1.0.0",
+  "description": "Estimate LLM API costs before you send - OpenAI, Anthropic, and more",
+  "main": "index.js",
+  "bin": {
+    "ai-token-cost": "./index.js"
+  },
+  "keywords": [
+    "llm",
+    "tokens",
+    "cost",
+    "openai",
+    "anthropic",
+    "gpt",
+    "claude",
+    "pricing",
+    "ai",
+    "cli"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/ai-token-cost"
+  },
+  "homepage": "https://github.com/lxgicstudios/ai-token-cost#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "gpt-tokenizer": "^2.1.2"
+  }
+}
