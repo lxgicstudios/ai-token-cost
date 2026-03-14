@@ -95,6 +95,24 @@ claude-3-opus       $0.1125   ████████████████�
 
 **DeepSeek**: deepseek-v3, deepseek-r1
 
+## FAQ
+
+### How accurate is the token count?
+
+ai-token-cost uses tiktoken for OpenAI models and cl100k_base tokenizer for others. Token counts are exact for OpenAI, within 5% for other providers.
+
+### Does it work offline?
+
+Yes. Token counting and cost calculation work completely offline. No API calls are made.
+
+### Why are Claude costs higher than GPT-4o?
+
+Claude 3 Opus is priced at $15/1M input tokens vs GPT-4o at $2.50/1M. Use Claude 3.5 Sonnet ($3/1M) for similar quality at lower cost.
+
+### How do I add a new model?
+
+Models are updated with each release. Open an issue on GitHub to request new models.
+
 ## License
 
 MIT - Built by [LXGIC Studios](https://github.com/lxgicstudios)
